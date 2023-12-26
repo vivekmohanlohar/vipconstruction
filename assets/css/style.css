@@ -22,7 +22,6 @@
 html {
   overflow-x: hidden;
   scroll-behavior: smooth;
-  font-size: 100%;
 }
 
 body {
@@ -225,7 +224,7 @@ section {
 .home {
   height: 100vh;
   /* background-color: darkorange; */
-  background: linear-gradient(45deg, rgba(250, 195, 9, .9), rgba(101, 101, 101, 0.7)), url(/assets/images/carousel-1.jpg);
+  background: linear-gradient(45deg, rgba(250, 195, 9, .9), rgba(101, 101, 101, 0.7)), url(./assets/images/carousel-1.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: center;
@@ -490,7 +489,7 @@ mark {
 
 .contact {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
-    url(../img/carousel-2.jpg) no-repeat;
+    url(./assets/images/carousel-2.jpg) no-repeat;
   min-height: 100vh;
   background-position: center;
   background-size: cover;
@@ -656,6 +655,10 @@ textarea {
     z-index: 999;
     top: 0;
     left: 0;
+  }
+  
+  .home__content h5 {
+    font-size: 3rem;
   }
 
   input:required {
